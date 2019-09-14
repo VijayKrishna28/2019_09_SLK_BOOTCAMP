@@ -1,0 +1,22 @@
+
+public class FindCube {
+
+	
+	static int mycube(int val)
+	{
+		return (val * val * val);
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+	
+//FindCube ref=new FindCube();
+
+   int temp=FindCube.mycube(10);
+   
+   System.out.println("Cube = "+temp);
+	}
+
+}
