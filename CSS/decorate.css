@@ -1,0 +1,14 @@
+
+  body {
+
+          background-color: lightblue;
+
+        }
+
+
+  H2 {
+          border: 3px dotted Violet;
+          text-transform: capitalize;
+          color: green;
+
+     }
