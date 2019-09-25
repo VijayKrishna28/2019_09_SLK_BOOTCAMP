@@ -1,0 +1,36 @@
+<html>
+<head>
+<script>
+function timer()
+{
+var d=new Date();
+
+var hrs=d.getHours();
+var mi=d.getMinutes();
+var ss=d.getSeconds();
+
+var curtime=(hrs+"::"+mi+"::"+ss);
+
+document.getElementById("demo").innerHTML=curtime;
+
+}
+
+</script>
+</head>
+
+<body>
+<form>
+<pre>
+
+<p id="demo"></p>
+
+
+
+
+<button type="button" id="b1" onclick="timer()">SHOW TIME</button>
+
+</pre>
+</form>
+</body>
+
+</html>
